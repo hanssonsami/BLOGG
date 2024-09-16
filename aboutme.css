@@ -1,0 +1,44 @@
+@font-face {
+    font-family: krabby;
+    src: url(krabby_patty/Krabby\ Patty.ttf);
+}
+body{
+    background-image: url(img/bikini-bottom.png);
+    margin: 0;
+}
+h1{
+    font-family: 'krabby';
+    font-size: 60px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+h2{
+    font-family: 'krabby';
+    font-size: 20px; 
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: rgb(19, 0, 68);
+}
+.mainContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+.defaultBorder{
+    border: 2px solid rgb(56, 58, 72);
+    box-shadow: 5px 5px 3px rgb(37, 39, 54);
+    border-radius: 10px;
+}
+.card{
+
+    color:rgb(0, 0, 0);
+    margin: 4vw;
+    box-shadow: 3px 3px 5px grey;
+    font-size: large;
+    font-family: 'krabby';
+    background-color: rgb(236, 245, 255);
+    text-align: center;
+}
